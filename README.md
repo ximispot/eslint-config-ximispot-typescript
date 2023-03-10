@@ -13,6 +13,13 @@ npm install eslint-config-ximispot-typescript \
 
 ### Configure ESLint
 
+If you need Node/Deno support:
+```diff
+extends: [
++ 'ximispot-typescript/node'
+]
+```
+
 If you need React support:
 ```diff
 extends: [
